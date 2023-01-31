@@ -12,6 +12,6 @@ jobs:
  
           # Create CML report
           cat metrics.txt >> report.md
-          cml comment create report.md
+          cml comment create --target=commit report.md
         env:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
