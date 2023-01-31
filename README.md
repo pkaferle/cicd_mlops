@@ -1,2 +1,3 @@
 # cicd_mlops
-public now
+public
+edit permission
